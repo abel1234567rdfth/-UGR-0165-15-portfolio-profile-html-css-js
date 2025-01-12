@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/contact.css">
     <title>Contact</title>
 </head>
 <body>
@@ -10,49 +11,55 @@
         <div class="logo">
             <img src="./images/logo.jpg" alt="Logo">
         </div>
+        <div class="hamburger"></div>
         <nav>
             <ul>
-                <li><a href="./home.html">Home</a></li>
+                <li><a href="../home.html">Home</a></li>
                 <li><a href="./About.html">About</a></li>
                 <li><a href="./services.html">Services</a></li>
-                <li><a href="./work.html">Work</a></li>
+                <li><a href="./Portfolio.html">Work</a></li>
                 <li><a href="./Contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <div class="contact">
-            <section class="header">
-                <h1>Contact Me</h1>
-            </section>
-            <div class="email">
-                <img src="./images/gmail.jpg" alt="Email Icon">
-                <a href="mailto:gutaabel1@gmail.com">gutaabel1@gmail.com</a>
-            </div>
-            <div class="socialmedia">
-                <a href="https://t.me/@FAMBIT1"><img src="./images/telegram.jfif" alt="Telegram"></a>
+        <div class="contact-inputwrapper">
+            <div class="contact">
+                <section class="header">
+                    <h1>Contact Me</h1>
+                </section>
+                <div class="email">
+                    <img src="./images/gmail.jpg" alt="email">
+                    <a href="mailto:gutaabel1@gmail.com">gutaabel1@gmail.com</a>
+                </div>
+                <div class="socialmediaAccounts">
+                    <a href="https://t.me/@FAMBIT1"><img src="./images/telegram.jfif" alt="Telegram"></a>
                 <a href="https://www.facebook.com/alphacap546"><img src="./images/facebook.jfif" alt="Facebook"></a>
                 <a href="https://www.instagram.com/alphacap546"><img src="./images/insta.jfif" alt="Instagram"></a>
                 <a href="https://twitter.com/@alphacap546"><img src="./images/x.png" alt="Twitter"></a>
                 <a href="mailto:gutaabel1@gmail.com"><img src="./images/gmail.jpg" alt="Gmail"></a>
+                </div>
             </div>
-        </div>
-        <section class="input">
-            <form action="#" method="post">
+            <div class="input">
                 <h3>Name</h3>
-                <input type="text" name="name" placeholder="Please Enter Your Name" required>
+                <input type="text" name="name" placeholder="Please Enter your name">
                 <h3>Email</h3>
-                <input type="email" name="email" placeholder="Please Enter Your Email" required>
+                <input type="text" name="email" placeholder="Please Enter your Email">
                 <h3>Comment</h3>
-                <textarea name="comment" rows="6" placeholder="Enter Your Message" required></textarea>
-                <button type="submit">Submit</button>
-            </form>
-        </section>
+                <textarea name="comment" rows="6" placeholder="Enter Your Message"></textarea>
+            </div>
+           
+        </div>
+        <div class="button">
+            <button id="submit" type="submit">Submit</button>
+        </div>
+
+       
     </main>
     <footer>
         <div class="address">
             <h3>Phone: +251930640338</h3>
-            <h3>Telegram: <a href="https://t.me/FAMBIT1">@FAMBIT1</a></h3>
+            <h3>Telegram: <a href="#">@FAMBIT1</a></h3>
             <h3>Email: <a href="mailto:gutaabel1@gmail.com">gutaabel1@gmail.com</a></h3>
         </div>
         <div class="footerDescription">
@@ -66,5 +73,6 @@
             <a href="mailto:gutaabel1@gmail.com"><img src="./images/gmail.jpg" alt="Gmail"></a>
         </div>
     </footer>
+    <script src="./script/script.js"></script>
 </body>
 </html>
